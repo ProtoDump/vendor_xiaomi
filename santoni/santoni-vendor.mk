@@ -275,7 +275,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libgxbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgxbinder.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
