@@ -211,12 +211,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qcrilhook",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/qcrilhook.jar"],
-}
-
-dex_import {
 	name: "uimlpalibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/uimlpalibrary.jar"],
@@ -244,6 +238,13 @@ dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
